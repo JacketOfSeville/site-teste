@@ -165,6 +165,7 @@ body {
     background: #fff;
     padding: 20px;
     border-radius: 10px;
+    margin-bottom: 10px;
 }
 
 .fakeimg {
@@ -172,3 +173,18 @@ body {
     width: 100%;
     padding: 20px;
   }
+
+/***************/
+
+h2.card {
+    font-size: 2.1em;
+    line-height: 0.5em;
+    margin: 25px auto 1px auto;
+}
+
+h5.card {
+    font-size: 0.8em;
+    line-height: 1.3em;
+    margin: 15px auto 10px auto;
+    font-weight: 400;
+}
