@@ -18,11 +18,19 @@ body {
 }
 
 .container {
-  max-width: 640px;
+  max-width: 90%;
   margin: 50px auto;
   background: #fff;
   padding: 20px;
   border-radius: 10px;
+}
+
+.separador {
+    background-color: #c7c7c7;
+    border-radius: 10px;
+    text-align: center;
+    padding: 10px;
+    display: block;
 }
 
 .header {
@@ -30,7 +38,40 @@ body {
 }
 
 .subtitulo {
-    margin: 0 auto;
+    margin: auto;
     font-size: 0.9em;
     line-height: 1.2em;
+}
+
+.botao {
+    border: 0;
+    padding: 0 20px;
+    border-radius: 5px;
+    line-height: 1.75;
+}
+
+#botGoogle {
+    color: #ffffff;
+    background-color: rgb(21, 161, 40);
+}
+
+#botGoogle:hover {
+    background-color: rgb(13, 173, 34);
+}
+
+#botGoogle:active {
+    background-color: rgb(9, 121, 24);
+}
+
+#botYoutube {
+    color: #ffffff;
+    background-color: rgb(185, 24, 24);
+}
+
+#botYoutube:hover {
+    background-color: rgb(197, 15, 15);
+}
+
+#botYoutube:active {
+    background-color: rgb(156, 12, 12);
 }
