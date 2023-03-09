@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap');
+/* https://www.w3schools.com/howto/howto_css_blog_layout.asp */
 :root {
   --primary-color: rgb(17, 86, 102);
 }
@@ -17,13 +18,62 @@ body {
   line-height: 1.5em;
 }
 
-.container {
+.containerHead {
   max-width: 90%;
-  margin: 50px auto;
+  margin: 50px auto 10px auto;
   background: #fff;
   padding: 20px;
   border-radius: 10px;
 }
+
+.responsive {
+    padding: 0 6px;
+    float: center;
+    width: 24.99999%
+}
+
+/***************/
+
+@media only screen and (max-width: 700px) {
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+  
+@media only screen and (max-width: 500px) {
+    .responsive {
+        width: 100%;
+    }
+}
+
+/****************/
+
+.galeria {
+    margin: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    float: left;
+    width: 180px;
+}
+
+.galeria:hover {
+    border: 1px solid #777;
+    border-radius: 5px;
+}
+
+.galeria img {
+    width: 100%;
+    height: auto;
+}
+
+.galeriadesc {
+    padding: 5px;
+    margin-top: 0px;
+    text-align: center;
+}
+
+/****************/
 
 .separador {
     background-color: #c7c7c7;
@@ -43,6 +93,8 @@ body {
     line-height: 1.2em;
 }
 
+/****************/
+
 .botao {
     border: 0;
     padding: 0 20px;
@@ -54,24 +106,69 @@ body {
     color: #ffffff;
     background-color: rgb(21, 161, 40);
 }
-
 #botGoogle:hover {
     background-color: rgb(13, 173, 34);
 }
-
 #botGoogle:active {
     background-color: rgb(9, 121, 24);
 }
-
+/***************/
 #botYoutube {
     color: #ffffff;
     background-color: rgb(185, 24, 24);
 }
-
 #botYoutube:hover {
     background-color: rgb(197, 15, 15);
 }
-
 #botYoutube:active {
     background-color: rgb(156, 12, 12);
 }
+/***************/
+#botReddit {
+    color: #ffffff;
+    background-color: rgb(185, 118, 24);
+}
+#botReddit:hover {
+    background-color: rgb(197, 112, 15);
+}
+#botReddit:active {
+    background-color: rgb(156, 94, 12);
+}
+/***************/
+#botGithub {
+    color: #ffffff;
+    background-color: rgb(67, 24, 185);
+}
+#botGithub:hover {
+    background-color: rgb(15, 42, 197);
+}
+#botGithub:active {
+    background-color: rgb(12, 89, 156);
+}
+/***************/
+
+.linha {
+  max-width: 90%;
+  margin: auto;
+  float: center;
+}
+
+.linha:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.esquerda {
+    float: center;
+    max-width: 78%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.fakeimg {
+    background-color: #aaa;
+    width: 100%;
+    padding: 20px;
+  }
