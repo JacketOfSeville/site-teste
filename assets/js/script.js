@@ -1,1 +1,1 @@
-alert(Teste);
+console.log("hOi!")
