@@ -1,0 +1,12 @@
+body {
+    margin: 10px;
+    background-color: rgb(74, 74, 88);
+}
+
+#container {
+    display:inline-block;
+    border-radius: 10px;
+    background-color: #ffffff;
+    width: 90%;
+    text-align: center;
+}
