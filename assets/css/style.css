@@ -168,6 +168,15 @@ body {
     margin-bottom: 10px;
 }
 
+.direita {
+    float: right;
+    width: 20%;
+    background: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+}
+
 .fakeimg {
     background-color: #aaa;
     width: 100%;
