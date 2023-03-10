@@ -1,5 +1,5 @@
 # Sitezão Padrão
-Este é um repositório que existe, exclusivamente, para bricnar com o HTML, CSS, JS, Node.JS e etc.
+Este é um repositório que existe, exclusivamente, para brincar com o HTML, CSS, JS, Node.JS e etc.
 
 O histórico é uma completa loucura 🪐
 
