@@ -17,7 +17,7 @@ document.getElementById("botReddit").onclick = function () {
 
 // Botão GitHub
 document.getElementById("botGithub").onclick = function () {
-    location.href = "https://github.com";
+    location.href = "https://github.com/JacketOfSeville";
 } 
 
 /*----------------------------------------------------------*/
