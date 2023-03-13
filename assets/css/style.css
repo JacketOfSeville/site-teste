@@ -10,13 +10,19 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
-  background-color: var(--primary-color);
-  font-family: 'Open sans', sans-serif;
-  font-size: 1.3em;
-  line-height: 1.5em;
-  animation: fadeIn 2s;
+    margin: 0;
+    padding: 0;
+    background-color: var(--primary-color);
+    font-family: 'Open sans', sans-serif;
+    font-size: 1.3em;
+    line-height: 1.5em;
+    animation: fadeIn 2s;
+}
+
+.hyperHidden { 
+    outline: 0;
+    text-decoration: none;
+    color: #000000;
 }
 
 @keyframes fadeIn {
@@ -36,6 +42,26 @@ body {
     padding: 0 6px;
     float: center;
     width: 24.99999%
+}
+
+/****************/
+/*Scrollbar*/
+
+::-webkit-scrollbar {
+  width: 7px;
+}
+
+::-webkit-scrollbar-track {
+  background: var(--primary-color);
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgb(27, 145, 172);
+  border-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(255, 255, 255);
 }
 
 /****************/
@@ -167,4 +193,8 @@ h5.card {
     line-height: 1.3em;
     margin: 15px auto 10px auto;
     font-weight: 400;
+}
+
+p#texto {
+    text-align: justify;
 }
