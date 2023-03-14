@@ -38,12 +38,6 @@ body {
     border-radius: 10px;
 }
 
-.responsive {
-    padding: 0 6px;
-    float: center;
-    width: 24.99999%
-}
-
 /****************/
 /*Navbar Superior*/
 
@@ -216,6 +210,8 @@ ul.horizontal li a:hover:not(.active) { /*Efeito de hover nas páginas não selc
     margin-bottom: 10px;
 }
 
+/***************/
+
 .fakeimg {
     background-color: #aaa;
     width: 100%;
@@ -224,6 +220,13 @@ ul.horizontal li a:hover:not(.active) { /*Efeito de hover nas páginas não selc
 
 .imgCard { 
     max-width: 100%; 
+    border-radius: 10px;
+}
+
+.imgTextDir150px {
+    max-height: 150px;
+    float: right;
+    padding: 10px 0 10px 10px;
 }
 
 /***************/
@@ -245,10 +248,4 @@ p#texto {
     text-align: justify;
     font-size: 0.9em;
     line-height: 1.1em;
-}
-
-.imgTextDir150px {
-    max-height: 150px;
-    float: right;
-    padding: 10px 0 10px 10px;
 }
