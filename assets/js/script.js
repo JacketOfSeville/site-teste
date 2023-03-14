@@ -70,7 +70,20 @@ function DataHoje () {
     data.innerHTML = `<h2 style="margin-bottom: 5px">${dds}</h2> 
                     ${dia} de ${mes} de ${ano}<br>`;
 }
-
 DataHoje();
+console.log(DataHoje());
 
-console.log(dataHoje());
+/*----------------------------------------------------------*/
+
+window.onscroll = function() {prender()}; // Quando rolar a página, executar Prender
+
+var navbar = document.getElementById("navbar"); // Adquire a navbar
+var sticky = navbar.offsetTop; // Pega a posição offset da Navbar
+
+function prender() { // Adiciona a classe 'sticky' na Navbar
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky") // Adciona a classe quando a rolagem passar do tamanho da navbar
+  } else {
+    navbar.classList.remove("sticky"); // Remove a classe quando a rolagem voltar ao tamanho da navbar
+  }
+} 
