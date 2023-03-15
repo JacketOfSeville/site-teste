@@ -1,5 +1,3 @@
-console.log("hOi!")
-
 // Botão Google
 document.getElementById("botGoogle").onclick = function () {
     location.href = "https://google.com.br";
@@ -22,7 +20,7 @@ document.getElementById("botGithub").onclick = function () {
 
 /*----------------------------------------------------------*/
 
-function DataHoje () {
+function DataHoje () {    // Função para exibir a data atual
     const data = document.getElementById("datadireita"); // Chama a área de data no HTML
     const d = new Date(); // Cria a data do presente momento
 
@@ -67,7 +65,7 @@ function DataHoje () {
 
     const ano = d.getFullYear(); // Pega o ano
 
-    data.innerHTML = `<h2 style="margin-bottom: 5px">${dds}</h2> 
+    data.innerHTML = `<h2 class="card" style="margin-bottom: 5px">${dds}</h2> 
                     ${dia} de ${mes} de ${ano}<br>`;
 }
 DataHoje();
@@ -87,3 +85,6 @@ function prender() { // Adiciona a classe 'sticky' na Navbar
     navbar.classList.remove("sticky"); // Remove a classe quando a rolagem voltar ao tamanho da navbar
   }
 } 
+
+/*----------------------------------------------------------*/
+

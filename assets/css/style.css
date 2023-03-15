@@ -192,9 +192,12 @@ ul.horizontal li a:hover:not(.active) { /*Efeito de hover nas páginas não selc
 }
 
 .esquerda {
-    float: center;
-    max-width: 78%;
+    float: left;
+    max-width: 75%;
     max-height: 50%;
+}
+
+.leftcard {
     background: #fff;
     padding: 20px;
     border-radius: 10px;
@@ -203,11 +206,16 @@ ul.horizontal li a:hover:not(.active) { /*Efeito de hover nas páginas não selc
 
 .direita {
     float: right;
-    width: 20%;
+    width: 24%;
+    height: 50%;
+}
+
+.rightcard {
     background: #fff;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 10px;
+    text-align: right;
 }
 
 /***************/
@@ -242,6 +250,10 @@ h5.card {
     line-height: 1.3em;
     margin: 15px auto 10px auto;
     font-weight: 400;
+}
+
+h5#datadireita {
+    text-align: center;
 }
 
 p#texto {
