@@ -16,4 +16,4 @@ function login() {
     }
   }
   alert("Usuário ou senha incorretos!");
-}
+} // A
